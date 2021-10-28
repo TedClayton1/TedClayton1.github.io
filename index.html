@@ -8,10 +8,17 @@
     <title>Ted L Clayton Portfolio</title>
 </head>
 <style>
-    body {
-        background-color:brown;
+ *  {
+        box-sizing: border-box;
+ 
+ }
+    .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}   
 
-        <h2>Project Table</h2>
+
 
 <table>
   <tr>
@@ -69,7 +76,7 @@
         </li>
     </nav>
     <div>
-        <h1 id ="home" >Welcome to the Ted L Clayton Page</i></h1>
+        <h2 id ="home" >Welcome to the Ted L Clayton Page</i></h2>
         <br>
         <br>
         <p>
@@ -83,13 +90,27 @@
         <br>
     </div>
     <div>
-        <h1 id ="aboutme" >Ted Clayton</h1>
-        <h2>Full Stack Developer</h2>
-        <div class= "image">
+        <h2 id ="aboutme" >About Me</h2>
+        
+        <div class= "row">
+            <div class="column">
             <img src="./images/IMG_1237.JPG" alt="Photograph Of Me"
+            style="width:400px;height:300px;">            
+        </div>
+        <div class= "column">
+            <img src="./images/IMG_0253.JPG" alt="Ace"
             style="width:400px;height:300px;">
+        </div>
+        <div class = "column">
+            <img src="./images/IMG_0078.JPG" alt="Me and Ace"
+            style="width:400px;height:300px;">         
             
         </div>
+
+       
+
+
+
         <p>
             My name is Ted L Clayton a Full Stack Developer in the making. I have a very diverse background
             in the following industries(health insurance, auto repair, banking, car sales, and live sports 
@@ -99,7 +120,7 @@
             growth. If you have any additional questions please feel free to reach out.
         </p>
     <div>
-        <h1 id = "projects">Projects</h1>
+        <h2 id = "projects">Projects</h2>
     </div>
         <br>
         <p>
@@ -115,7 +136,7 @@
         
     </div>
     <div>
-        <h1 id ="contact us">Contact</h1>
+        <h2 id ="contact us">Contact</h2>
         
         <p>
             The best way to reach me is my email at ted_clayton@hotmail.com and I'll reply as soon as

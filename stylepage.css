@@ -5,7 +5,26 @@ h1 {
     margin-bottom: .3em;
 }
 
+h2 {
+    text-align:center;
 
+
+
+}
+
+body {
+    background-color:brown;
+
+ 
+}            
+
+p {
+    background-color:rgb(236, 228, 228);
+    
+
+}
+
+   
 
 table {
     font-family: arial, sans-serif;
